@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Employee {
+    public static void main(String[] args)
+    {
+        
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the choice");
+        int choice=sc.nextInt();
+        switch(choice)
+        {
+            case 1:System.out.println("robert");
+                   int year1=1994;
+                   char address1=64C-Wallstreet;
+                   break;
+            case 2:System.out.println("Sam");
+                System.out.println("robert");
+                int year2=2000;
+                char address2=68D-WallsStreet;
+                break;
+            case 3: System.out.println("john");
+                   int year3=1999;
+                    char address3=26B-wallsStreet;
+                    break; 
+            default:System.out.println("invalid");
+        }
+    }
+    
+}
